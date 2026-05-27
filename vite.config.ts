@@ -5,6 +5,7 @@ import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/L520-sudo.github.io/',
   build: {
     sourcemap: 'hidden',
   },
